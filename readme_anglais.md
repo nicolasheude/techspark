@@ -2,6 +2,8 @@
 
 **Objective:** Create a Python game where two players take turns removing matches from a pile. The player who removes the last match wins!
 
+https://techsparkacademy.ch/python-basics-cheat-sheet/
+
 **Game Rules:**
 
 1. **The Matchstick Pile:** At the beginning of the game, there are a certain number of matches on the field (you can choose this number).
