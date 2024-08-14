@@ -2,6 +2,8 @@
 
 **Objectif:** Créer un jeu en Python où deux joueurs s'affrontent en retirant des allumettes d'un tas. Le joueur qui retire la dernière allumette gagne ! 
 
+https://techsparkacademy.ch/python-basics-cheat-sheet/
+
 **Règles du jeu:**
 
 1. **Le tas d'allumettes:** Au début du jeu, il y a un certain nombre d'allumettes sur le terrain (vous pouvez choisir ce nombre).
