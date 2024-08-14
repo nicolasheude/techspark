@@ -1,4 +1,4 @@
-## Projet "Just Price" en Python: Défi pour un enfant de 12 ans
+## Projet "Just Price" en Python:
 
 **Objectif:** Créer un jeu "Just Price" où l'ordinateur choisit un nombre aléatoire entre 1 et 100 et le joueur doit le deviner en un minimum d'essais.
 
