@@ -97,10 +97,6 @@ if __name__ == "__main__":
 
 - [ ] Permettre la saisie d'un nombre uniquement.
 - [ ] Améliorer l'affichage des messages print.
-- [ ] Ajouter le choix de plusieurs niveaux :
-      - Facile : 0 - 10
-      - Moyen : 0 - 100
-      - Difficile : 0 - 1000
-      - Impossible : 0 - 10 000
+- [ ] Ajouter le choix de plusieurs niveaux (facile: 0 - 10), (moyen: 0 - 100), (difficile: 0 - 1000), (impossible: 0 - 10 000)
 - [ ] Ajouter un mode avec un nombre d'essais limité.
 - [ ] Sauvegarder le score des joueurs dans un fichier sur l'ordinateur.
