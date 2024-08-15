@@ -86,3 +86,9 @@ if __name__ == "__main__":
 * Pense à utiliser des structures conditionnelles (if, elif, else) pour gérer les différentes situations du jeu.
 
 **Amuse-toi bien à créer ton propre jeu Just Price!**
+
+
+- [ ] Afficher entre quels nombres il doit deviner.
+- [ ] Demander le nom du joueur.
+- [ ] À la fin d'une partie, lui donner l'option de rejouer.
+- [ ] Afficher s'il a battu son record d'essais.
