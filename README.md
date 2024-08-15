@@ -132,3 +132,27 @@ while True:
     - Implémenter des IA plus complexes.
 
 **Bon courage et amusez-vous à créer votre jeu des allumettes !**
+
+Décryptage de l'IA qui évite les erreurs
+L'IA "évite_erreurs" est un peu maligne. Elle essaie de te piéger pour que tu sois obligé de retirer la dernière allumette !
+Voici comment elle fonctionne :
+L'objectif: L'IA essaie de te laisser toujours un nombre d'allumettes qui est un multiple de 4 (4, 8, 12, 16, etc.).
+La stratégie:
+Si le nombre d'allumettes est déjà un multiple de 4: l'IA va retirer un nombre d'allumettes au hasard (1, 2 ou 3) pour briser ce multiple de 4.
+Si le nombre d'allumettes n'est pas un multiple de 4: l'IA va retirer le nombre d'allumettes nécessaire pour ramener le nombre total à un multiple de 4.
+Exemple:
+Imagine qu'il reste 11 allumettes. Ce n'est pas un multiple de 4.
+L'IA va retirer 3 allumettes pour laisser 8 allumettes (8 est un multiple de 4).
+Maintenant, c'est ton tour. Quelle que soit le nombre d'allumettes que tu retires (1, 2 ou 3), l'IA va toujours pouvoir faire en sorte qu'il reste un multiple de 4.
+Si tu retires 2 allumettes, il reste 6 allumettes. L'IA va retirer 2 allumettes pour laisser 4 allumettes.
+Si tu retires 3 allumettes, il reste 5 allumettes. L'IA va retirer 1 allumette pour laisser 4 allumettes.
+Le piège :
+Si tu tombes dans le piège et que tu laisses un multiple de 4, l'IA va toujours pouvoir te forcer à retirer la dernière allumette !
+Comment traduire cette logique en Python ?
+Tu peux utiliser l'opérateur modulo (%) pour trouver le reste d'une division. Par exemple, 11 % 4 donne 3, car 11 divisé par 4 donne 2 avec un reste de 3.
+Si le reste de la division du nombre d'allumettes par 4 est 1, l'IA doit retirer 1 allumette.
+Si le reste est 2, l'IA doit retirer 2 allumettes.
+Si le reste est 3, l'IA doit retirer 3 allumettes.
+Si le reste est 0, l'IA peut retirer un nombre d'allumettes aléatoire.
+N'oublie pas d'utiliser la fonction random.randint(1, 3) pour choisir un nombre aléatoire entre 1 et 3 si nécessaire.
+N'hésite pas à demander si tu as des questions ! Bon courage pour programmer ton IA !
