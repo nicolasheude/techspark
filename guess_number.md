@@ -88,7 +88,19 @@ if __name__ == "__main__":
 **Amuse-toi bien à créer ton propre jeu Just Price!**
 
 
-- [ ] Afficher entre quels nombres il doit deviner.
-- [ ] Demander le nom du joueur.
-- [ ] À la fin d'une partie, lui donner l'option de rejouer.
-- [ ] Afficher s'il a battu son record d'essais.
+- [x] Afficher entre quels nombres il doit deviner.
+- [x] Demander le nom du joueur.
+- [x] À la fin d'une partie, lui donner l'option de rejouer.
+- [x] Afficher s'il a battu son record d'essais.
+
+### Next step:
+
+- [ ] Permettre la saisie d'un nombre uniquement.
+- [ ] Améliorer l'affichage des messages print.
+- [ ] Ajouter le choix de plusieurs niveaux :
+      - Facile : 0 - 10
+      - Moyen : 0 - 100
+      - Difficile : 0 - 1000
+      - Impossible : 0 - 10 000
+- [ ] Ajouter un mode avec un nombre d'essais limité.
+- [ ] Sauvegarder le score des joueurs dans un fichier sur l'ordinateur.
