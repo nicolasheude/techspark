@@ -7,11 +7,13 @@ def generer_nombre_mystere():
     Génère un nombre aléatoire entre 1 et 100.
     """
     while True:
-        print("1. Facile - 10")
+        print("\n1. Facile - 10")
         print("2. Moyen - 100")
         print("3. Difficile - 1'000")
         print("4. Impossible - 10'000")
-        reponse = int(input("\nQuel niveau de difficulté ?"))
+        print("5. Boss des pupuces - 1'000'000")
+        print("6. Méga Boss Ultra Pro Max - 1'000'000'000'000")
+        reponse = int(input("\nQuel niveau de difficulté ? "))
         if reponse == 1:
             max = 10
             break
@@ -22,6 +24,13 @@ def generer_nombre_mystere():
             break
         if reponse == 4:
             max = 10000
+            break
+        if reponse == 5:
+            max = 1000000
+            break
+        if reponse == 6:
+            max = 1000000000000
+            break
 
     x = random.randint(1, max)
     return x, max
@@ -55,7 +64,7 @@ def donner_indice(nombre_joueur, nombre_mystere):
     """
 
     if nombre_mystere < nombre_joueur:
-        print("\nPlus petit, ne soit pas gourmand mon garçon ! ")
+        print("\nPlus petit, ne soit pas gourmand mon garçon 🫃! ")
     if nombre_mystere > nombre_joueur:
         print("\nPlus grand, vers l'infini et au-delà")
 
@@ -99,7 +108,7 @@ def main():
     """
     Fonction principale du jeu.
     """
-    n = input("Entre un pseudo : \n")
+    n = input("Entre un pseudo : ")
     bs = 0
     jouer_partie(n, bs)
 
